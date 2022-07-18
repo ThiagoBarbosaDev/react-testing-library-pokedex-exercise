@@ -12,7 +12,6 @@ describe('Requisito 02 - Teste o componente About', () => {
   });
   it('deve conter dois parágrafos com texto sobre a Pokédex;', () => {
     renderWithRouter(<About />);
-    renderWithRouter(<About />);
 
     const firstParagraph = screen.getByText(/This application simulates a Pokédex/i);
     const secondParagraph = screen.getByText(/One can filter Pokémons by type,/i);
