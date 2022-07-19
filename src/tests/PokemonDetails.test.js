@@ -5,7 +5,8 @@ import renderWithRouter from '../helpers/renderWithRouter';
 import App from '../App';
 
 describe('commit inicial', () => {
-  beforeAll(() => renderWithRouter(<App />));
+  it('commit inicial', () => {
+    renderWithRouter(<App />)
 
-  it('commit inicial', () => {});
+  });
 });
