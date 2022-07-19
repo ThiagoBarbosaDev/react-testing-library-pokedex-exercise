@@ -4,7 +4,6 @@ import userEvent from '@testing-library/user-event';
 import renderWithRouter from '../helpers/renderWithRouter';
 import App from '../App';
 import pokemons from '../data';
-// import starIconFav from '../../public/star-icon.svg';
 
 const POKEMON_DATA = pokemons;
 
