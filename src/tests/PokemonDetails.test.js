@@ -6,7 +6,6 @@ import App from '../App';
 
 describe('commit inicial', () => {
   it('commit inicial', () => {
-    renderWithRouter(<App />)
-
+    renderWithRouter(<App />);
   });
 });
